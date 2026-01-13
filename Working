@@ -1,0 +1,24 @@
+The game works on the following logic:
+
+    Win = R•(T+D)
+     Lost = R'•(T' + (Y+B)•T)
+
+where,
+ R = Red wire cut
+ T = Timer is on
+ Y + B = Yellow or blue wire is cut
+ D = Game is turned on
+
+The above Win logic ensures that the person wins if they cut the red wire when the timer is still on or when the timer is not activated ( if he / she wishes to play without the timer).
+
+The above Lost logic ensures that the person losses of the cut the wrong wire, I.e., Yellow or blue wire, or if they don't cut any wire when the time runs out.
+
+For the timer, a 555 timer ic monostable vibrator is used.
+
+The arrangement of the 555 timer, ensures a 10 second timer, hence giving the user 10 seconds to cut the correct wire.
+
+
+
+
+
+    
